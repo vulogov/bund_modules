@@ -1,0 +1,13 @@
+[package]
+name = "bund_modules"
+version = "0.1.0"
+edition = "2021"
+description = "Support for system of byte-compiled modules for BUND language"
+license-file = "LICENSE"
+homepage = "https://github.com/vulogov/bund_modules"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nanoid = "0.4.*"
+rust_dynamic = ">= 0.17.*"
